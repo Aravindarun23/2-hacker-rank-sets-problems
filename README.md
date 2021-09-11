@@ -2,3 +2,4 @@
 
   1) Introduction to sets
   2) symmetric difference
+  3) set.add()
