@@ -34,4 +34,28 @@ if __name__ == '__main__':
     arr = list(map(int, input().split()))
     result = average(arr)
     print(result)
+    
+    
+    
+    
+    
+   another way:
+   # set has no allow any duplicate values
+   # set has many buit in function
+   
+   
+def average(array):
+    array=set(array)
+    return sum(array)/len(array)
+        
+
+
+    
+    
+
+if __name__ == '__main__':
+    n = int(input())
+    arr = list(map(int, input().split()))
+    result = average(arr)
+    print(result)
   
