@@ -5,3 +5,4 @@
   3) set.add()
   4) Set.discord(),.remove(),.pop()
   5) set.union() 
+  6) set.inersection()
