@@ -1,0 +1,40 @@
+
+Sample Input
+
+7
+UK
+China
+USA
+France
+New Zealand
+UK
+France 
+
+Sample Output
+
+5
+
+
+
+ANSWER::
+
+n=int(input())
+s1=set()            #empty set is denoted by set()
+for i in range(n):
+    s1.add(input())
+s1=set(s1)
+print(len(s1))
+
+
+another way::
+
+
+n=int(input())
+s1=[]
+for i in range(n):
+    s1.append(input())
+s1=set(s1)
+print(len(s1))
+
+
+    
