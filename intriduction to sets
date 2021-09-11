@@ -1,0 +1,37 @@
+Sample Input
+
+STDIN                                       Function
+-----                                       --------
+10                                          arr[] size N = 10
+161 182 161 154 176 170 167 171 170 174     arr = [161, 181, ..., 174]
+
+Sample Output
+
+169.375
+
+
+
+
+  ANSWER:
+  
+  
+  def average(array):
+    ls=[]
+    s=0
+    for i in array:
+        if i not in ls:
+            ls.append(i)
+    for g in ls:
+        s=s+g
+    return float(s/len(ls))
+
+
+    
+    
+
+if __name__ == '__main__':
+    n = int(input())
+    arr = list(map(int, input().split()))
+    result = average(arr)
+    print(result)
+  
