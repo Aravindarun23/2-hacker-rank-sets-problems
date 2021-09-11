@@ -1,0 +1,50 @@
+STDIN       Function
+-----       --------
+4           set a size M = 4
+2 4 5 9     a = {2, 4, 5, 9}
+4           set b size N = 4
+2 4 11 12   b = {2, 4, 11, 12}
+
+Sample Output
+
+5
+9
+11
+12
+
+
+ANSWER:
+
+
+n=int(input())
+a=set(map(int,input().split()))
+m=int(input())
+b=set(map(int,input().split()))
+l=[]
+c=a.difference(b)
+d=b.difference(a)
+c.update(d)
+for i in c:
+    l.append(i)
+
+l.sort()
+for i in l:
+    print(i)
+    
+    
+    
+    ANOTHER ANS::
+    
+    
+n1=int(input())     
+a=set(map(int,input().split()))
+n2=int(input())
+b=set(map(int,input().split()))
+c=a.union(b)
+ls=[]
+for i in c:
+    if i in a and  i in b:
+        pass
+    else:
+        ls.append(i)
+print(ls)
