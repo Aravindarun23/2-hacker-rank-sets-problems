@@ -6,3 +6,4 @@
   4) Set.discord(),.remove(),.pop()
   5) set.union() 
   6) set.inersection()
+  7) set.difference()
