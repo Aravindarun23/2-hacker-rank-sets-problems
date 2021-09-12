@@ -7,3 +7,4 @@
   5) set.union() 
   6) set.inersection()
   7) set.difference()
+  8) set.symmetric difference
