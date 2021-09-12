@@ -12,3 +12,5 @@
   10) The captain's room
   11) check Subset
   12) check strict Superset
+  13) No idea!
+  14) 
