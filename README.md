@@ -9,3 +9,4 @@
   7) set.difference()
   8) set.symmetric difference
   9) set Mutations
+  10) The captain's room
