@@ -11,3 +11,4 @@
   9) set Mutations
   10) The captain's room
   11) check Subset
+  12) check strict Superset
