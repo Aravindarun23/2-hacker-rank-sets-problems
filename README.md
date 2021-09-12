@@ -8,3 +8,4 @@
   6) set.inersection()
   7) set.difference()
   8) set.symmetric difference
+  9) set Mutations
